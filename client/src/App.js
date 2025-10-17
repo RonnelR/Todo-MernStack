@@ -52,7 +52,7 @@ const handleTodo = async (e) =>{
 }
 
 
-//handle delete todo item\
+//handle delete todo item
 const handleDelete = async(id) =>{
 try {
   const {data} = await axios.delete(`/api/user/delete-todoItem/${id}`)

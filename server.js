@@ -25,7 +25,6 @@ const PORT = process.env.REST_API_PORT;
 databaseConnection();
 
 
-
 app.get('/', function(req,res){
     res.send("HELLO WORLD!!")
 })
