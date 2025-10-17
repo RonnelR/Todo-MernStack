@@ -1,0 +1,42 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.todoBody{
+    background-color:rgb(41, 65, 85);
+    border-radius: 35px;
+    border-bottom:10px;
+    padding:10px
+  }
+
+.todoItems{
+    background-color: blanchedalmond;
+    color: black;
+    margin: 10px ;
+    padding:10px;
+    border-radius: 20px;
+  
+  }
+
+  .lineThrough{
+    text-decoration: line-through;
+    color: grey;
+  }
+
+  .inputForm input{
+    border-radius: 25px;
+    border-color: aqua;
+    width: 80%;
+    height: 50px;
+    padding: 25px;
+    color: black;
+  }
+
+  .header{
+    color: wheat;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, Helvetica, sans-serif ;
+    margin: 20px;
+  }
